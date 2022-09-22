@@ -7,7 +7,7 @@ Citizen.CreateThread(function()
         local playerserver_ID = GetPlayerServerId(PlayerId())
         local playerserver_COUNT = #GetActivePlayers()
 
-		SetDiscordAppId(867767851267915787)
+		SetDiscordAppId(YOUR_ID)
         SetRichPresence(""..playerserver_NAME.. " - " ..playerserver_COUNT.. "/1024")
 
 		SetDiscordRichPresenceAsset("your logo")
